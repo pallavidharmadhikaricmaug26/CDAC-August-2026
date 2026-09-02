@@ -1,5 +1,4 @@
 #include <iostream>
-#include <cstdlib>
 using namespace std;
 
 int main4(int argc, char* argv[]){
@@ -46,10 +45,10 @@ int main4(int argc, char* argv[]){
         }
     }
 
-    cout << "Config  : Warn=" << warn << "C  Critical=" << critical
-         << "C  Readings=" << numReadings << endl;
-    cout << "Results : Normal:" << normal << "  Warning:" << warning
-         << "  Critical:" << criticalCount << "  Shutdown:" << shutdownCount << endl;
+    cout << "Config  : Warn=" << warn << "C  Critical=" << critical<<endl;
+    cout << "C  Readings=" << numReadings << endl;
+    cout << "Results : Normal:" << normal << "  Warning:" << warning<<endl;
+    cout<< "  Critical:" << criticalCount << "  Shutdown:" << shutdownCount << endl;
 
     return 0;
 }
